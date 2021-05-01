@@ -17,8 +17,8 @@ body {
 }
 
 #display {
-    color: white;
-    background-color: #108378;
+    color: #101820FF;
+    background-color: #89ABE3FF;
     width: 180px;
     display: flex;
     font-size: 28px;
@@ -28,23 +28,30 @@ body {
     box-sizing: border-box;
     border-radius: 0px 10px 0px 0px;
     overflow: hidden;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
 
 
 }
 
 .calc {
     width: 250px;
-    height: 320px;
+    height: 325px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: #e9ba80;
+    background-color: #00539CFF;
     box-shadow: 0px 0px 10px #82582e;
 
     padding: 10px;
     overflow: hidden;
+    border-style: solid;
     border-radius:10px ;
+    border-color: black;
+    border-width: thick;
+
 }
 
 .row {
@@ -62,7 +69,11 @@ body {
     justify-content: center;
     cursor: pointer;
     transition: .15s;
-    background-color: #c16200;
+    background-color: #EEA47FFF;
+
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -78,13 +89,13 @@ body {
 }
 
 #add, #subtract, #multiply, #divide {
-    color: white;
-    background-color: #4E0110;
+    color: black;
+    background-color: #D198C5FF;
 }
 
 #clear, #equal, #dot {
-    color: white;
-    background-color: #ad2f16;
+    color: black;
+    background-color: #9CC3D5FF;
 }
 
 #clear {
